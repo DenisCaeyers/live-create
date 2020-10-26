@@ -4,16 +4,306 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/public/css/main.css" />
 
-    <title>HTML SASS BOILERPLATE</title>
+    <title>Live & Create</title>
   </head>
   <body>
-    <H1>Hello World!</H1>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <img
+        src="/assets/public/img/icon.JPG"
+        class="d-inline-block align-top"
+        alt=""
+        loading="lazy"
+      />
+      <a class="navbar-brand" href="#">Live & Create</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Wat ik doe
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Voetreflexologie</a>
+              <a class="dropdown-item" href="#">Dieptemassage</a>
+              <a class="dropdown-item" href="#">Bachbloesemtherapie</a>
+              <a class="dropdown-item" href="#">Stressbeheer en relaxatie</a>
+              <a class="dropdown-item" href="#"
+                >Voedingsadvies en reinigingskuren</a
+              >
+              <a class="dropdown-item" href="#">Fytotherapie</a>
+              <a class="dropdown-item" href="#">Systeemopstellingen</a>
+              <a class="dropdown-item" href="#">Gespreksbegeleiding</a>
+              <a class="dropdown-item" href="#">Kindercoach</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row header">
+        <div class="col-sm-12">
+          <div class="wrapper">
+            <h1>Live & Create</h1>
+            <p>
+              Vanuit een inzicht in het totale mensbeeld ga ik samen met jou op
+              zoek naar wat jij, in jouw individuele leefsituatie, nodig hebt om
+              gezonder en gelukkiger te zijn.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row intro">
+        <div class="col-sm-12">
+          <h1>Mijn doel</h1>
+          <p>
+            Lichaam en geest zijn verbonden en beïnvloeden elkaar. De drukke
+            levensstijl (stress) heeft als gevolg dat je lichaam en geest uit
+            balans worden gebracht waardoor er allerlei klachten ontstaan.
+          </p>
+          <p>
+            Mijn behandelingen zijn gericht op het ondersteunen en bevorderen
+            van jouw zelfgenezend vermogen aanwezig in je lichaam.
+            Zoals Hippocrates zei: ”Het gaat om de mens, niet om de ziekte”.
+          </p>
+          <p>
+            Door oorzaken te begrijpen en te werken aan veranderingen in je
+            leven, kan je lichaam helen en verhoogt je vitaliteit. Je wordt
+            weerbaarder tegen stress, je levensvreugde neemt toe en je
+            gezondheid verbetert.
+          </p>
+          <p>
+            Ik behandel geen ziekte, wel de zieke! Ik ben er om je te helpen en
+            om je de kans te geven je eigen weg terug te vinden naar gezondheid
+            en vitaliteit!
+          </p>
+          <p>
+            De jouw aangeboden adviezen en behandelingen vervangen op geen enkel
+            moment de therapie voorgeschreven door jouw arts. Een open en
+            gezonde dialoog tussen je arts en je gezondheidsbegeleider kan
+            leiden tot een integrale aanpak.
+          </p>
+        </div>
+      </div>
+      <div class="row services">
+        <div class="col-sm-12">
+          <h1>Wat ik doe</h1>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <!-- Voetreflexologie -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/voetreflex.jpg"
+                  class="card-img-top"
+                  alt="Voetreflexologie"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Voetreflexologie</h5>
+                  <p class="card-text">
+                    De voet als weerspiegeling van ons hele lichaam.
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <!-- Dieptemassage -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/dieptemassage.jpg"
+                  class="card-img-top"
+                  alt="Dieptemassage"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Dieptemassage</h5>
+                  <p class="card-text">
+                    Diepgaande massagetechniek bij accuute pijn.
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <!-- Bachbloesemtherapie -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/bachbloesem.jpg"
+                  class="card-img-top"
+                  alt="Bachbloesemtherapie"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bachbloesemtherapie</h5>
+                  <p class="card-text">
+                    Bach-bloesemtherapie is een vorm van ondersteunende
+                    therapie, waarbij verschillende extracten van bloesems
+                    worden ingenomen al naargelang de klachten
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <!-- Stressbeheer en relaxatie -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/relaxatie.jpg"
+                  class="card-img-top"
+                  alt="relaxatie"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Stressbeheer en relaxatie</h5>
+                  <p class="card-text">
+                    Door middel van meditatietechnieken in combinatie met
+                    massage, kan ik je helpen weer rust in je hoofd en je
+                    lichaam te vinden.
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <!-- Voedingsadvies -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/voeding.jpg"
+                  class="card-img-top"
+                  alt="Voedingsadvies"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Voedingsadvies en reinigingskuren</h5>
+                  <p class="card-text">
+                    Gezonde voeding voor een gezond lichaam.
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <!-- Fytotherapie -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/fyto.jpg"
+                  class="card-img-top"
+                  alt="Fytotherapie"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Fytotherapie</h5>
+                  <p class="card-text">
+                    Fytotherapie is een ondersteuningsmethode die klachten
+                    aanpakt door middel van het gebruik van kruiden.
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <!-- Systeemopstellingen -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/systeemopstellingen.jpg"
+                  class="card-img-top"
+                  alt="systeemopstellingen"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Systeemopstellingen</h5>
+                  <p class="card-text">
+                    Een familie-opstelling is een methode om systemen en
+                    verbanden inzichtelijk te maken. Aangezien een familie een
+                    veelvoorkomend en ingewikkeld systeem is, worden
+                    opstellingen vaak gebruikt.
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <!-- Gespreksbegeleiding -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/gespreksbegeleiding.jpg"
+                  class="card-img-top"
+                  alt="Gespreksbegeleiding"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Gespreksbegeleiding</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <!-- Kindercoach -->
+              <div class="card" style="width: 100%">
+                <img
+                  src="/assets/public/img/kindercoach.jpg"
+                  class="card-img-top"
+                  alt="kindercoach"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kindercoach</h5>
+                  <p class="card-text">
+                    Als kindercoach begeleid ik deze kinderen. Kinderen die wat
+                    hulp kunnen gebruiken, maar waarbij een therapeut of
+                    psycholoog een stap te ver is.
+                  </p>
+                  <a href="#" class="card-link">Meer info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
     <script src="assets/public/js/main.js"></script>

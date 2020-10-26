@@ -1,4 +1,75 @@
+@import "_bootstrapoverrides.scss";
+@import "_variables.scss";
+
 // SASS CODE GOES HERE
 body {
-  background-color: gray;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: $f-title;
+  font-weight: bold;
+}
+h1{
+  color: $c-green;
+}
+h5{
+  color: $c-green;
+  font-size: 1.5rem;
+}
+div,p{
+  font-family: $f-body;
+}
+
+a{
+  color: $c-green;
+  &:hover{
+    color:$c-bluegreen;
+  }
+}
+
+nav{
+  .navbar-brand{
+    font-family: $f-title;
+    font-size: 1.8rem;
+    text-align: left;
+  }
+}
+
+div.header{
+  height: 400px;
+  background: url(/assets/public/img/splash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  div.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+  }
+  h1{
+    color: white;
+    font-size: 2rem;
+  }
+  p{
+    color: white;
+    text-transform: bold;
+  }
+}
+
+div.intro{
+  text-align: center;
+  padding: 30px;
+}
+div.services{
+  h1{
+    text-align: center;
+  }
+  div.card{
+    margin-top: 30px;
+  }
 }
