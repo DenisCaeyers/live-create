@@ -7,69 +7,205 @@ body {
   padding-bottom: 30px;
 }
 
-h1,h2,h3,h4,h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: $f-title;
   font-weight: bold;
 }
-h1{
+h1 {
   color: $c-green;
 }
-h5{
+h5 {
   color: $c-green;
   font-size: 1.5rem;
 }
-div,p{
+div,
+p {
   font-family: $f-body;
 }
 
-a{
+.btn-outline-success {
   color: $c-green;
-  &:hover{
-    color:$c-bluegreen;
+  border-color: $c-green;
+  &:active,
+  &:hover {
+    background-color: $c-green;
+    border-color: $c-green;
   }
 }
 
-nav{
-  .navbar-brand{
+.btn {
+  border-radius: 0;
+}
+.btn-success {
+  border-color: $c-green;
+  background-color: $c-green;
+  &:active,
+  &:hover {
+    background-color: $c-bluegreen;
+    border-color: $c-bluegreen;
+  }
+}
+
+.card {
+  border-radius: 0;
+  .card-img,
+  .card-img-top {
+    border-radius: 0;
+  }
+}
+
+a {
+  color: $c-green;
+  &:hover {
+    color: $c-bluegreen;
+  }
+}
+
+nav {
+  .navbar-brand {
     font-family: $f-title;
     font-size: 1.8rem;
     text-align: left;
   }
+  .dropdown-menu {
+    border-radius: 0;
+    border-color: transparent;
+    .dropdown-item {
+      &:active {
+        color: #fff;
+        text-decoration: none;
+        background-color: $c-green;
+      }
+    }
+  }
 }
 
-div.header{
+div.header {
   height: 400px;
   background: url(/assets/public/img/splash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-  div.wrapper{
+  div.wrapper {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
   }
-  h1{
+  h1 {
     color: white;
     font-size: 2rem;
   }
-  p{
+  p {
     color: white;
     text-transform: bold;
   }
 }
-
-div.intro{
-  text-align: center;
-  padding: 30px;
+#dieptemassage {
+  background: url(/assets/public/img/dieptemassage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-div.services{
-  h1{
-    text-align: center;
-  }
-  div.card{
+#voetreflexologie{
+  background: url(/assets/public/img/voetreflex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#bachbloesemtherapie{
+  background: url(/assets/public/img/bachbloesem.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#stressbeheer{
+  background: url(/assets/public/img/relaxatie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#voedingsadvies{
+  background: url(/assets/public/img/voeding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#fytotherapie{
+  background: url(/assets/public/img/fyto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#systeemopstellingen{
+  background: url(/assets/public/img/systeemopstellingen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#gespreksbegeleiding{
+  background: url(/assets/public/img/gespreksbegeleiding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#kindercoach{
+  background: url(/assets/public/img/kindercoach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+div.intro {
+  text-align: left;
+}
+div.services {
+  div.card {
     margin-top: 30px;
+  }
+}
+.main {
+  padding: 30px;
+  @media (min-width: 768px) {
+    padding: 80px;
+  }
+}
+
+.content-block {
+  padding-bottom: 80px;
+}
+
+.footer{
+  text-align: center;
+  img{
+    max-width: 250px;
+    padding-right: 30px;
+  }
+  .end{
+    background-color: $c-green;
+    padding: 30px;
+    margin-top: 30px;
+    color: white;
+    h1{
+      color: white;
+    }
+    a{
+      color: white;
+    }
   }
 }
