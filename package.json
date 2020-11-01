@@ -1,5 +1,5 @@
 {
-  "name": "html-sass-boilerplate",
+  "name": "live-create",
   "version": "1.0.0",
   "description": "Simple sass compiler with live preview.",
   "main": "index.js",
